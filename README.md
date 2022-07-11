@@ -1,2 +1,11 @@
 # Business-analytics-and-data-science-project
-Predictive modeling project with Machine Learning
+### Predictive modeling project with Machine Learning
+The assignment of BADS is a predictive modeling task, which is a subset of data analytics that uses data mining techniques and probability to predict future outcomes. In essence, a model should be developed and applied to historical data; new, future data would then be used together with the model to make a future prediction. A Predictive modeling problem can also be described as a mathematical problem of approximating a mapping function (f) using independent variables (X)to output variables (y).
+
+In our scenario, the predictive model should be used and trained on a known dataset, where for every row, the target variable "return" is known ( its classes are given). After training, the model should be applied to new data to predict whether a customer is going to return the product purchased or not. The target variable comprises two discrete classes/labels: 0-negative class, which refers to the customer's action that decides to keep the product, and 1-positive class, which refers to the return of the product purchased by the customer. A situation where the algorithm has to predict a class/label, like in our scenario, is called Classification. It's a problem of automatically assigning a label to an unlabeled example. In machine learning, a classification problem is solved by a classification learning algorithm. It's opposed to a Regression problem where the purpose is to predict a real-valued label, or target, given an unlabeled example.
+
+The objective of this notebook is to predict the future classes of the target variable return and create a model that, when making predictions, also minimizes costs for the merchant. Costs occur whenever the model predicts the wrong class; depending on the error, the cost will vary.
+
+In this notebook, the data preparation phase has been applied separately but in parallel to both the Known and Unknown datasets. In reality, the unknown dataset would represent the future information collected by e-commerce, which would then be used to predict the labels (0,1). It might thereby not be available together with the Known dataset.
+
+The notebook mainly comprises of two parts: a first section where the focus is on EDA & Data Preparation, and a second one where different models are tested, evaluated, tuned to choose the most suitable one for future predictions ( Model tuning & selection, Model Evaluation
