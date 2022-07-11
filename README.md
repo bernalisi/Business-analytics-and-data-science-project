@@ -1,6 +1,6 @@
 # Business-analytics-and-data-science-project
 ### Predictive modeling project with Machine Learning
-The following is a predictive modelling project I developed through a Business Analytics & Data Science course at the Humboldt University of Berlin. Through the project I personally developed Data Science Skills, using data mining techniques and probability to predict future outcomes within business situations. 
+The following is a predictive modelling project I developed through a Business Analytics & Data Science course at the Humboldt University of Berlin. Through the project I personally developed Data Science Skills, using data mining techniques and probability to predict future outcomes within business situations. You can find the notebook developed in **Jupyter Notebook** using **Python** in this repository. 
 
 In essence, for the project to be successfull, a model should be developed and applied to historical data; new, future data would then be used together with the model to make a future prediction. A Predictive modeling problem can also be described as a mathematical problem of approximating a mapping function (f) using independent variables (X)to output variables (y).
 
